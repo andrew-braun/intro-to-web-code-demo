@@ -1,32 +1,55 @@
 body {
 	margin: 0;
+	background: lightgray;
+	font-family: "Helvetica Neue", Helvetica;
 }
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Courier New", Courier, monospace;
 	color: purple;
 }
 
-.page-section {
-	background: red;
+header {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 8%;
+	background: darkblue;
 }
 
-.active {
-	background: purple;
+.site-title {
+	margin: 0;
+	color: white;
 }
 
-.color-block {
-	display: none;
-	width: 50px;
-	height: 50px;
+main {
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
-.blue-block {
-	background: navy;
+p {
+	padding: 5px;
 }
 
-.red-block {
-	background: firebrick;
+.columns {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.current-game-selection {
-	display: block;
+.left-column {
+	width: 50%;
+	min-width: 260px;
+}
+
+.right-column {
+	width: 50%;
+	min-width: 260px;
+	text-align: center;
+}
+
+.profile-pic {
+	max-width: 320px;
 }

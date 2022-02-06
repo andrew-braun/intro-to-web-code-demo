@@ -2,33 +2,92 @@
 <html lang="en">
 	<head>
 		<title>Introduction</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<script src="index.js" defer></script>
 	</head>
 	<body>
 		<header>
-			<h1>Andrew Braun</h1>
+			<h1 class="site-title">Andrew Braun</h1>
 		</header>
-		<section>
-			<h2>About Me</h2>
-			<div><img src="./not-a-dog.jpg" /></div>
-			<div>
-				<p>
-					I'm totally a person! You know that saying that "on the internet no
-					one knows you're a dog?" Well, I certainly don't have to worry about
-					anyone finding out I'm a dog because I'm 100% human. Yep. That's me.
-					Don't even
-					<i>start</i> with offering me belly rubs and treats!
-				</p>
-			</div>
-		</section>
-		<section>
-			<h2>My Interests</h2>
-			<ul>
-				<li>Cats</li>
-				<li>Human Food</li>
-				<li>The JavaScript Fetch API</li>
-			</ul>
-		</section>
+		<main>
+			<section class="page-section">
+				<h2 style="margin-bottom: 0">About Me</h2>
+				<div class="columns">
+					<div class="left-column">
+						<p>
+							I'm totally a person! You know that saying that "on the internet
+							no one knows you're a dog?" Well, I certainly don't have to worry
+							about anyone finding out I'm a dog because I'm 100% human. Yep.
+							That's me. Don't even
+							<i>start</i> with offering me belly rubs and treats!
+						</p>
+						<p>
+							Leave me alone. Who the hell is John F. Kennedy? Excuse me. A bolt
+							of lightning, unfortunately, you never know when or where it's
+							ever gonna strike. Yeah, but you're uh, you're so, you're so thin.
+						</p>
+						<p>
+							C'mon, c'mon. Um, well it's a delorean, right? It's already
+							mutated into human form, shoot it. Just finishing up the second
+							coat now. Great good, good, Lorraine, I had a feeling about you
+							two.
+						</p>
+
+						<p>
+							What? Excuse me. C'mon, Mom, make it fast, I'll miss my bus. Hey
+							see you tonight, Pop. Woo, time to change that oil. Hey, hey, I've
+							seen this one, I've seen this one. This is a classic, this is
+							where Ralph dresses up as the man from space. Alright, we're the
+							pinheads.
+						</p>
+						<button id="show-more-button">Show More</button>
+						<div class="hide">
+							<p>
+								C'mon, c'mon. Um, well it's a delorean, right? It's already
+								mutated into human form, shoot it. Just finishing up the second
+								coat now. Great good, good, Lorraine, I had a feeling about you
+								two.
+							</p>
+							<p>
+								What? Excuse me. C'mon, Mom, make it fast, I'll miss my bus. Hey
+								see you tonight, Pop. Woo, time to change that oil. Hey, hey,
+								I've seen this one, I've seen this one. This is a classic, this
+								is where Ralph dresses up as the man from space. Alright, we're
+								the pinheads.
+							</p>
+						</div>
+					</div>
+					<div class="right-column">
+						<img src="./profile-pic.png" class="profile-pic" />
+					</div>
+				</div>
+			</section>
+			<section class="page-section">
+				<h2>My Interests</h2>
+				<ul>
+					<li>Cats</li>
+					<li>Human Food</li>
+					<li>
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+							>The JavaScript Fetch API</a
+						>
+					</li>
+				</ul>
+			</section>
+			<section class="page-section">
+				<h2>Contact Me</h2>
+				<ul>
+					<li>
+						<a href="mailto:andrew@andrewbraun.dev">Send me an email!</a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/andrewwestonbraun"
+							>Visit my LinkedIn</a
+						>
+					</li>
+				</ul>
+			</section>
+		</main>
 	</body>
 </html>
